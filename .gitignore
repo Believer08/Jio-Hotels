@@ -1,0 +1,6 @@
+.idea/
+
+Logs/
+AllureReport/
+TestCases/__pycache__/
+Pages/__pycache__/
