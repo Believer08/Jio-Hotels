@@ -32,7 +32,7 @@ def setup(request):
     browser_name = request.config.getoption("browser")
     if browser_name == "chrome":
         # service = Service(r'..\\Utilities\\chromedriver.exe')
-        driver = webdriver.Chrome()
+        driver = webdriver.Edge()
     elif browser_name == "firefox":
         driver = webdriver.Firefox()
     elif browser_name == "IE":
